@@ -182,7 +182,7 @@ int main() {
                         }
                     }
                     if(completed) {
-						count++;
+			count++;
                         for(int x=0;x<screen_width;x++) {
                             field[y][x] = 0;
                         }
