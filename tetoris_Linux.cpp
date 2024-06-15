@@ -156,7 +156,6 @@ void drawscreen() {
 
 void init_mino() {
     mino.shape = shapes[rand() % SHAPE_MAX];
-    mino.shape = shapes[SHAPE_I];
     mino.x = (screen_width - mino.shape.width) / 2;
     mino.y = 0;
 }
